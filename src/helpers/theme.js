@@ -54,7 +54,6 @@ const theme = createTheme({
     drawer: {
       width: 300,
       fontSize: 16,
-      backgroundColor:"#006273"
     },
     appBar: {
       fontSize: 16,
@@ -193,14 +192,6 @@ const theme = createTheme({
   bigAvatar: {
     width: 160,
     height: 160,
-  },
-  buttonContainer: {
-    horizontal: {
-      display: "flex",
-      flexWrap: "nowrap",
-      overflowX: "auto",
-      justifyContent: "flex-end",
-    },
   },
 });
 

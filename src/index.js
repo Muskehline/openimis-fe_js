@@ -15,7 +15,8 @@ import ModulesManagerProvider from "./ModulesManagerProvider";
 import { App, FatalError, baseApiUrl, apiHeaders } from "@openimis/fe-core";
 import messages_ref from "./translations/ref.json";
 import "./index.css";
-import logo from "./openIMIS.png";
+// import logo from "./openIMIS.png";
+import logo from "./images.png"
 
 const loadConfiguration = async () => {
   const response = await fetch(`${baseApiUrl}/graphql`, {
@@ -27,16 +28,14 @@ const loadConfiguration = async () => {
     throw response;
   } else {
     const { data } = await response.json();
-    data.moduleConfigurations.unshift({});
-    const out = data.moduleConfigurations.reduce((acc, c) => {
+    return data.moduleConfigurations.reduce((acc, c) => {
       try {
         acc[c.module] = { controls: c.controls, ...JSON.parse(c.config) };
       } catch (error) {
         console.error(`Failed to parse module ${c.module} config`, error);
       }
       return acc;
-    });
-    return out;
+    }, []);
   }
 };
 
