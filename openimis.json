@@ -18,6 +18,14 @@
         },
         {
             "languages": [
+                "en-al",
+                "en-al"
+            ],
+            "intl": "en-al",
+            "fileNames": "en-al"
+        },
+        {
+            "languages": [
                 "fr",
                 "fr-FR"
             ],
@@ -57,6 +65,47 @@
         {
             "name": "ProfileModule",
             "npm": "@openimis/fe-profile@=1.5.0"
+        },
+        {
+            "name": "BanksModule",
+            "npm": "@openimis/fe-banks@=1.5.0"
+        },
+        {
+            "name": "BenefitsModule",
+            "npm": "@openimis/fe-benefits@=1.5.0"
+        },
+        {
+            "name": "CashTransferTerminologyModule",
+            "npm": "@openimis/fe-cash_transfer_terminology@=1.5.0"
+        },
+        {
+            "name": "AlternativeLanguageModule",
+            "npm": "@openimis/fe-alternative_language@=1.5.0"
+        },
+        {
+            "name": "DiaFormModule",
+            "npm": "@openimis/fe-dia_form@=1.5.0"
+        },
+        {
+            "name": "ExporterModule",
+            "npm": "@openimis/fe-exporter@=1.5.0"
+        },
+        {
+            "name": "GrievanceModule",
+            "npm": "@openimis/fe-grievance@=1.5.0"
+        }
+        ,
+        {
+            "name": "PayrollModule",
+            "npm": "@openimis/fe-payroll@=1.5.0"
+        },
+        {
+            "name": "ProgramsModule",
+            "npm": "@openimis/fe-programs@=1.5.0"
+        },
+        {
+            "name": "ServiceProviderModule",
+            "npm": "@openimis/fe-service_provider@=1.5.0"
         }
     ]
 }

@@ -40,13 +40,16 @@
     "@openimis/fe-admin": "=1.4.1",
     "@openimis/fe-tools": "=1.5.0",
     "@openimis/fe-profile": "=1.5.0",
-    "@openimis/fe-cash_transfer_terminology": ">=1.4.1",
-    "@openimis/fe-dia_form": ">=1.4.1",
-    "@openimis/fe-exporter": ">=1.4.1",
-    "@openimis/fe-grievance": ">=1.4.1",
-    "@openimis/fe-payroll": ">=1.4.1",
-    "@openimis/fe-programs": ">=1.4.1",
-    "@openimis/fe-service_provider": ">=1.4.1"
+    "@openimis/fe-banks": "=1.5.0",
+    "@openimis/fe-benefits": "=1.5.0",
+    "@openimis/fe-cash_transfer_terminology": "=1.5.0",
+    "@openimis/fe-alternative_language": "=1.5.0",
+    "@openimis/fe-dia_form": "=1.5.0",
+    "@openimis/fe-exporter": "=1.5.0",
+    "@openimis/fe-grievance": "=1.5.0",
+    "@openimis/fe-payroll": "=1.5.0",
+    "@openimis/fe-programs": "=1.5.0",
+    "@openimis/fe-service_provider": "=1.5.0"
   },
   "scripts": {
     "start": "react-scripts start",
