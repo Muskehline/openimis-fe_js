@@ -83,10 +83,6 @@
             "npm": "@openimis/fe-alternative_language@=1.5.0"
         },
         {
-            "name": "DiaFormModule",
-            "npm": "@openimis/fe-dia_form@=1.5.0"
-        },
-        {
             "name": "ExporterModule",
             "npm": "@openimis/fe-exporter@=1.5.0"
         },
